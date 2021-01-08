@@ -15,3 +15,14 @@ attach tidyverse package
 library(tidyverse)
 ```
 
+create basic scatterplot of starwars characters
+
+```{r}
+
+starwarz <- ggplot(starwars, aes(x= mass, y = height))+
+  geom_point(color = "purple")
+
+starwarz
+
+```
+
