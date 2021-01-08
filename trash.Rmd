@@ -20,7 +20,7 @@ create basic scatterplot of starwars characters
 ```{r}
 
 starwarz <- ggplot(starwars, aes(x= mass, y = height))+
-  geom_point(color = "purple")
+  geom_point(color = "green")
 
 starwarz
 
